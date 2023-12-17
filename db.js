@@ -4,7 +4,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'linksAPI',
-    password: 'pass',
+    password: '',
     port: 5432
 })
 
