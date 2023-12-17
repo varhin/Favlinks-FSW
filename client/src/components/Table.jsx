@@ -25,9 +25,7 @@ const TableBody = (props) => {
       <td>
         <button onClick={() => props.removeLink(index)}>Delete</button>
       </td>
-      <td>
-        <button onClick={() => props.updateLink(index)}>Edit</button>
-      </td>
+     
     </tr>
   ));
 
